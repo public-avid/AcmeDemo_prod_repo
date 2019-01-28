@@ -12,7 +12,7 @@ resource "azurerm_security_center_contact" "example" {
 }
 
 resource "azurerm_security_center_subscription_pricing" "example" {
-  tier = "Standard"
+  tier = "Free"
 }
 
 resource "azurerm_virtual_machine" "main_linux" {
