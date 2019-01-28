@@ -103,7 +103,7 @@ resource "azurerm_monitor_log_profile" "test" {
   storage_account_id = "${azurerm_storage_account.test.id}"
 
   retention_policy {
-    enabled = true
+    enabled = false
     days    = 7
   }
 }
